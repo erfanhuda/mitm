@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+.header {
+    padding: 20px;
+    background: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+#sequence-container {
+    padding: 20px;
+}
+
+.sequence {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.node {
+    min-width: 180px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #222;
+    border: 1px solid #444;
+}
+
+.arrow {
+    flex: 1;
+    height: 2px;
+    background: #00ff88;
+    position: relative;
+    margin: 0 10px;
+}
+
+.arrow::after {
+    content: "";
+    position: absolute;
+    right: -6px;
+    top: -4px;
+    border-left: 8px solid #00ff88;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.method {
+    color: #00ffaa;
+    font-weight: bold;
+}
+
+.status {
+    color: #ffcc00;
+}
