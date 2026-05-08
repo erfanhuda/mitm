@@ -1,6 +1,4 @@
-# mitm
-
-# SSR Interceptor Visualizer
+# mitm - Interceptor & Visualizer
 
 A lightweight HTTP/HTTPS interceptor and SSR traffic visualization platform built using Python and mitmproxy.
 
