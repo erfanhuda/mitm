@@ -13,7 +13,7 @@ A lightweight HTTP/HTTPS interceptor and SSR traffic visualization platform buil
 - Request/response logging
 - Web UI visualization
 
-# mitmproxy HAR Exporter + Mock Server
+## mitmproxy HAR Exporter + Mock Server
 
 A two-file toolkit for capturing real HTTP sessions and replaying them as a
 local mock server for automated test suites.
